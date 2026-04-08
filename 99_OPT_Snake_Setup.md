@@ -12,6 +12,34 @@ You need to put this YAML file inside a specific hidden folder called `.github/w
    `.github/workflows/snake.yml`
    *(Notice that typing the `/` automatically creates the folders).*
 4. Paste your YAML code into the main text area.
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # runs daily
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: username
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+## Make sure for github_user_name put your account username
+
 5. Click **Commit changes...** at the top right and save it to your main branch.
 
 ## 2. Give GitHub Actions Permission to Write
@@ -48,9 +76,9 @@ Now you just need to show the animation on your actual profile page!
 
 ```html
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chaikokcheng/chaikokcheng/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chaikokcheng/chaikokcheng/output/github-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chaikokcheng/chaikokcheng/output/github-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/username/username/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/username/username/output/github-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/username/username/output/github-snake.svg">
 </picture>
 ```
 
