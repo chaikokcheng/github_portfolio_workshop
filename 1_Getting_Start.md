@@ -135,11 +135,24 @@ Don't list everything — curate 3–5 of your strongest projects.
 | [**another-project**](https://github.com/you/another) | One-line description | Python, FastAPI |
 ```
 
+**Result:**
+
+> ## 🚀 Featured Projects
+> 
+> | Project | Description | Tech |
+> |---------|------------|------|
+> | [**project-name**](https://github.com/you/project) | One-line description | React, Node.js |
+> | [**another-project**](https://github.com/you/another) | One-line description | Python, FastAPI |
+
 **Option B: Card-style with GitHub Stats cards**
 
 ```markdown
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=chaikokcheng&repo=REPO_NAME&theme=dark)](https://github.com/chaikokcheng/REPO_NAME)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=chaikokcheng&repo=portfolio-website&theme=dark)](https://github.com/chaikokcheng/portfolio-website)
 ```
+
+**Result:**
+
+> [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=chaikokcheng&repo=portfolio-website&theme=dark)](https://github.com/chaikokcheng/portfolio-website)
 
 **Tips:**
 - Link to live demos when available
@@ -219,11 +232,19 @@ Make it easy for people to reach you.
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chaikokcheng&theme=tokyo-night)
 ```
 
+**Result:**
+
+> ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chaikokcheng&theme=tokyo-night)
+
 ### Visitor Counter
 
 ```markdown
 ![Profile Views](https://komarev.com/ghpvc/?username=chaikokcheng&color=blue)
 ```
+
+**Result:**
+
+> ![Profile Views](https://komarev.com/ghpvc/?username=chaikokcheng&color=blue)
 
 ### Animated Typing Effect
 
@@ -232,6 +253,10 @@ Use [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg):
 ```markdown
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=Full+Stack+Developer;Open+Source+Enthusiast;Always+Learning)](https://git.io/typing-svg)
 ```
+
+**Result:**
+
+> [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=Full+Stack+Developer;Open+Source+Enthusiast;Always+Learning)](https://git.io/typing-svg)
 
 ### Spotify Now Playing
 
@@ -260,6 +285,14 @@ Show visitors what you're actively building. This signals you're an active devel
 - 📖 Writing a blog series on **system design patterns**
 - 🌱 Learning **Rust** and **WebAssembly**
 ```
+
+**Result:**
+
+> ## 🔭 Currently Working On
+> 
+> - 🚧 Building a **real-time collaboration tool** with WebSockets and React
+> - 📖 Writing a blog series on **system design patterns**
+> - 🌱 Learning **Rust** and **WebAssembly**
 
 ---
 
@@ -345,6 +378,16 @@ If you find my projects helpful, consider supporting me:
 [![Ko-fi](https://img.shields.io/badge/-Ko--fi-FF5E5B?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/chaikokcheng)
 ```
 
+**Result:**
+
+> ## 💖 Support My Work
+> 
+> If you find my projects helpful, consider supporting me:
+> 
+> [![Buy Me A Coffee](https://img.shields.io/badge/-Buy%20Me%20A%20Coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/chaikokcheng)
+> [![GitHub Sponsors](https://img.shields.io/badge/-Sponsor-EA4AAA?style=flat-square&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/chaikokcheng)
+> [![Ko-fi](https://img.shields.io/badge/-Ko--fi-FF5E5B?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/chaikokcheng)
+
 ---
 
 ## 14. Add a "Languages I Speak" Section
@@ -360,6 +403,15 @@ Especially useful if you work internationally or in open-source.
 - 🇪🇸 Spanish *(learning)*
 ```
 
+**Result:**
+
+> ## 🌐 Languages
+> 
+> - 🇺🇸 English *(native)*
+> - 🇨🇳 Mandarin *(fluent)*
+> - 🇯🇵 Japanese *(conversational)*
+> - 🇪🇸 Spanish *(learning)*
+
 ---
 
 ## 15. Add GitHub Trophies
@@ -371,6 +423,12 @@ Use [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) for
 
 ![Trophies](https://github-profile-trophy.vercel.app/?username=chaikokcheng&theme=darkhub&no-frame=true&row=1&column=7)
 ```
+
+**Result:**
+
+> ## 🏆 GitHub Trophies
+> 
+> ![Trophies](https://github-profile-trophy.vercel.app/?username=chaikokcheng&theme=darkhub&no-frame=true&row=1&column=7)
 
 **Available themes:** `flat`, `onedark`, `gruvbox`, `dracula`, `monokai`, `chalk`, `nord`, `alduin`, `darkhub`, `juicyfresh`, `buddhism`, `oldie`, `radical`, `onestar`, `discord`, `algolia`
 
@@ -415,6 +473,10 @@ jobs:
 ```markdown
 ![Snake animation](https://raw.githubusercontent.com/chaikokcheng/chaikokcheng/output/github-snake-dark.svg)
 ```
+
+**Result:**
+
+> ![Snake animation](https://raw.githubusercontent.com/chaikokcheng/chaikokcheng/output/github-snake-dark.svg)
 
 ---
 
@@ -510,6 +572,28 @@ I build [type of things] with [key technologies].
 - Remote or hybrid in Selangor
 - Product-focused teams building at scale
 ```
+
+**Result:**
+
+> # Hi, I'm Kok Cheng — CS Student @ UPM based in Selangor 👋
+> 
+> I build apps with [key technologies].
+> **Open to opportunities** — let's talk!
+> 
+> 📄 [**View My Resume**](https://link-to-your-resume.com)
+> 
+> ## 💼 What I Bring
+> 
+> - ✅ 5+ years of production experience with React & Node.js
+> - ✅ Led a team of 4 engineers shipping features to 1M+ users
+> - ✅ Strong background in system design and API architecture
+> - ✅ Active open-source contributor (500+ contributions this year)
+> 
+> ## 🎯 Looking For
+> 
+> - Full-time Senior Frontend / Full Stack roles
+> - Remote or hybrid in Selangor
+> - Product-focused teams building at scale
 
 ---
 
