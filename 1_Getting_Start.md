@@ -144,16 +144,6 @@ Don't list everything — curate 3–5 of your strongest projects.
 > | [**project-name**](https://github.com/you/project) | One-line description | React, Node.js |
 > | [**another-project**](https://github.com/you/another) | One-line description | Python, FastAPI |
 
-**Option B: Card-style with GitHub Stats cards**
-
-```markdown
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=chaikokcheng&repo=portfolio-website&theme=dark)](https://github.com/chaikokcheng/portfolio-website)
-```
-
-**Result:**
-
-> [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=chaikokcheng&repo=portfolio-website&theme=dark)](https://github.com/chaikokcheng/portfolio-website)
-
 **Tips:**
 - Link to live demos when available
 - Choose projects that show range (frontend, backend, CLI, library, etc.)
@@ -163,34 +153,6 @@ Don't list everything — curate 3–5 of your strongest projects.
 
 ## 6. Add GitHub Stats
 
-Use [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) to auto-generate stats cards.
-
-**Stats overview:**
-```markdown
-## 📊 GitHub Stats
-
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=chaikokcheng&show_icons=true&theme=dark)
-```
-
-**Result:**
-
-> ## 📊 GitHub Stats
-> 
-> ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=chaikokcheng&show_icons=true&theme=dark)
-
-**Most used languages:**
-```markdown
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chaikokcheng&layout=compact&theme=dark)
-```
-
-**Result:**
-
-> ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chaikokcheng&layout=compact&theme=dark)
-
-**Streak stats** (via [github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats)):
-```markdown
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=chaikokcheng&theme=dark)
-```
 
 **Result:**
 
@@ -257,20 +219,6 @@ Use [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg):
 **Result:**
 
 > [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=Full+Stack+Developer;Open+Source+Enthusiast;Always+Learning)](https://git.io/typing-svg)
-
-### Spotify Now Playing
-
-Use [spotify-github-profile](https://github.com/kittinan/spotify-github-profile) to show what you're listening to.
-
-### Blog Posts (Auto-Updated)
-
-Use [blog-post-workflow](https://github.com/gautamkrishnar/blog-post-workflow) GitHub Action to auto-pull your latest blog posts:
-
-```markdown
-## 📝 Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-```
 
 ---
 
@@ -421,14 +369,14 @@ Use [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) for
 ```markdown
 ## 🏆 GitHub Trophies
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=chaikokcheng&theme=darkhub&no-frame=true&row=1&column=7)
+![Trophies](https://github-profile-trophy-tawny.vercel.app/?username=chaikokcheng&theme=darkhub&no-frame=true&row=1&column=7)
 ```
 
 **Result:**
 
 > ## 🏆 GitHub Trophies
 > 
-> ![Trophies](https://github-profile-trophy.vercel.app/?username=chaikokcheng&theme=darkhub&no-frame=true&row=1&column=7)
+> ![Trophies](https://github-profile-trophy-tawny.vercel.app/?username=chaikokcheng&theme=darkhub&no-frame=true&row=1&column=7)
 
 **Available themes:** `flat`, `onedark`, `gruvbox`, `dracula`, `monokai`, `chalk`, `nord`, `alduin`, `darkhub`, `juicyfresh`, `buddhism`, `oldie`, `radical`, `onestar`, `discord`, `algolia`
 
@@ -523,6 +471,9 @@ This auto-populates with entries like:
 > 1. 🎉 Merged PR #42 in user/repo
 > 2. 💪 Opened PR #43 in user/repo
 > 3. ❗ Opened issue #12 in user/repo
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
@@ -644,13 +595,6 @@ One-liner about who you are and what you do.
 | [**cool-project**](https://github.com/you/cool-project) | Short punchy description | React, Node |
 | [**another-one**](https://github.com/you/another-one) | Short punchy description | Python, FastAPI |
 | [**cli-tool**](https://github.com/you/cli-tool) | Short punchy description | Rust |
-
----
-
-## 📊 GitHub Stats
-
-![Stats](https://github-readme-stats.vercel.app/api?username=chaikokcheng&show_icons=true&theme=dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chaikokcheng&layout=compact&theme=dark)
 
 ---
 
