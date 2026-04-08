@@ -45,7 +45,42 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-000000?style=for-the-badge&logo=railway&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-181717?style=for-the-badge&logo=gitlab&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+
+
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326ce5?style=flat-square&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-181717?style=flat-square&logo=gitlab&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+
+### 1. How to Change the Text
+The text is located right after `/badge/` and before the color code.
+
+* **Format:** `/badge/YOUR_TEXT-COLOR`
+* **Example:** If you want it to say "Core Java" instead of "Java", change `/badge/Java-` to `/badge/Core%20Java-` (use `%20` or an underscore `_` for spaces).
+
+### 2. How to Change the Background Color
+The background color is the 6-character hex code right after the text. **Do not include the `#` symbol.**
+
+* **Current:** `.../badge/Java-ED8B00...` (This makes it Orange).
+* **Change it:** To make it red, use `FF0000`. The URL becomes `.../badge/Java-FF0000...`.
+* **Tip:** You can also use standard color names like `red`, `blue`, `green`, or `success`.
+
+### 3. How to Change the Size and Style
+You are currently using the `for-the-badge` style, which makes them large, blocky, and uppercase. You can change the size and shape by modifying the `?style=` parameter.
+
+Here are the most common styles you can swap in:
+* `?style=for-the-badge` (Your current style: Large, blocky)
+* `?style=flat` (Standard size, rounded corners)
+* `?style=flat-square` (Standard size, sharp corners)
+* `?style=plastic` (Standard size, 3D glossy effect)
+
+**Example making it a standard, smaller size:** `.../badge/Java-ED8B00?style=flat-square&logo...`
+
+### 4. How to Change the Logo and Logo Color
+Shields.io pulls its icons from [SimpleIcons.org](https://simpleicons.org/), which has thousands of free brand logos.
+
+* **Change the Logo:** Find the `&logo=` parameter. If you want the Apple logo, change it to `&logo=apple`.
+* **Change the Logo Color:** Find the `&logoColor=` parameter. You can use names like `white`, `black`, or a hex code like `ffdd54`.
