@@ -485,7 +485,7 @@ I build [type of things] with [key technologies].
 
 ---
 
-## 20. Design Principles
+## 18. Design Principles
 
 | Do | Don't |
 |----|-------|
