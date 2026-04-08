@@ -1,5 +1,14 @@
 # 💻 Tech Stack
 
+
+[![My Skills](https://skillicons.dev/icons?i=java,spring,mysql,git,github,docker,html,css,js,javascript)](https://skillicons.dev)
+
+```
+[![My Skills](https://skillicons.dev/icons?i=java,spring,mysql,git,github,docker,html,css,js,javascript)](https://skillicons.dev)
+```
+---
+OR
+
 ## Languages
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
