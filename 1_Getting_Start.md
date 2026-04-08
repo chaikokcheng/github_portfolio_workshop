@@ -434,77 +434,8 @@ jobs:
 
 ---
 
-## 17. Add a "Latest Activity" Section (Auto-Updated)
 
-Use [github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme) to auto-update your recent GitHub activity.
-
-**Step 1:** Add placeholder to README:
-
-```markdown
-## ⚡ Recent Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-```
-
-**Step 2:** Create `.github/workflows/activity.yml`:
-
-```yaml
-name: Update README
-
-on:
-  schedule:
-    - cron: "*/30 * * * *" # every 30 minutes
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-This auto-populates with entries like:
-> 1. 🎉 Merged PR #42 in user/repo
-> 2. 💪 Opened PR #43 in user/repo
-> 3. ❗ Opened issue #12 in user/repo
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
----
-
-## 18. Add a WakaTime Coding Stats Section
-
-Show your weekly coding breakdown with [waka-readme-stats](https://github.com/anmol098/waka-readme-stats).
-
-**Step 1:** Sign up at [wakatime.com](https://wakatime.com) and install the editor plugin.
-
-**Step 2:** Add placeholder to README:
-
-```markdown
-## 📊 Weekly Coding Stats
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-```
-
-**Step 3:** Create a GitHub Action to update it. It auto-generates output like:
-
-```
-TypeScript   12 hrs 30 mins  ████████████░░░░░  48.2%
-Python       8 hrs 15 mins   ████████░░░░░░░░░  31.8%
-CSS          2 hrs 45 mins   ███░░░░░░░░░░░░░░  10.6%
-Markdown     1 hr 20 mins    █░░░░░░░░░░░░░░░░   5.2%
-Other        1 hr 5 mins     █░░░░░░░░░░░░░░░░   4.2%
-```
-
----
-
-## 19. Make Your Profile Stand Out for Recruiters
+## 17. Make Your Profile Stand Out for Recruiters
 
 If you're job-hunting, tailor your profile as a mini-resume.
 
@@ -564,45 +495,6 @@ I build [type of things] with [key technologies].
 | Show personality — it's chaikokchengR page | Copy someone else's README verbatim |
 | Use consistent styling (one badge style, one theme) | Mix 5 different visual styles |
 | Test how it renders on mobile | Assume everyone views on desktop |
-
----
-
-## 21. Full Example Template
-
-```markdown
-# Hi, I'm [Your Name] 👋
-
-One-liner about who you are and what you do.
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/chaikokcheng)
-[![Portfolio](https://img.shields.io/badge/-Website-000?style=flat-square&logo=google-chrome&logoColor=white)](https://you.dev)
-
----
-
-## 🛠 Tech Stack
-
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
----
-
-## 🚀 Featured Projects
-
-| Project | Description | Tech |
-|---------|------------|------|
-| [**cool-project**](https://github.com/you/cool-project) | Short punchy description | React, Node |
-| [**another-one**](https://github.com/you/another-one) | Short punchy description | Python, FastAPI |
-| [**cli-tool**](https://github.com/you/cli-tool) | Short punchy description | Rust |
-
----
-
-## 🤝 Let's Connect
-
-I'm always open to interesting conversations and collaboration.
-📫 Reach me at **your.email@student.upm.edu.my**
-```
 
 ---
 
