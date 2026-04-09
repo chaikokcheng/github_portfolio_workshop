@@ -153,6 +153,7 @@ Don't list everything — curate 3–5 of your strongest projects.
 
 ## 6. Add GitHub Stats
 
+https://github-readme-streak-stats.herokuapp.com/?user=chaikokcheng&theme=dark
 
 **Result:**
 
